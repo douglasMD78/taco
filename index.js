@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// Usar a variável de ambiente PORT para funcionar no Render
+// Configuração da porta do servidor
 const PORT = process.env.PORT || 3000;
 
 // Endpoint básico para teste
