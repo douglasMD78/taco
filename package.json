@@ -2,9 +2,9 @@
   "name": "taco-api",
   "version": "1.0.0",
   "description": "Tabela Brasileira de Composição de Alimentos API",
-  "main": "index.js",
   "scripts": {
-    "start": "bun run dev --filter=taco-api"
+    "start": "bun run dev --filter=taco-api",
+    "build": "bun install"
   },
   "dependencies": {}
 }
