@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Tabela Brasileira de Composição de Alimentos API",
   "scripts": {
-    "start": "bun run dev --filter=taco-api",
-    "build": "bun install"
+    "dev": "bun --bunfile ./apps/api/bun.lockb start",
+    "start": "bun --bunfile ./apps/api/bun.lockb start"
   },
   "dependencies": {}
 }
